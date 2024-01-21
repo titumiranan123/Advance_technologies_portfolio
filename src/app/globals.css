@@ -2,9 +2,99 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+
+/* for font */
+
+/* contact page calender style */
+
+/* contact page calender style */
+/* @font-face {
+  font-family: datefont;
+  /* src: url(./assets/font/Satoshi-Light.otf); */
+
+
+.react-calendar {
+  font-family: datefont !important;
+  font-size: 24px !important;
+  background: #1D1F20 !important;
+  color: white;
+  border: none !important;
+  width: 420px !important;
+}
+
+.react-calendar__month-view__days button:hover {
+  background: #1FB5DD !important;
+  width: 34px;
+  height: 38px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+abbr {
+  text-decoration: none;
+}
+
+
+/* for font */
+
+
+
+/* box card style  */
+
+.boxx {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.boxs {
+  border-radius: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.boxx::before {
+  content: '';
+  position: absolute;
+  width: 700px;
+  height: 700px;
+  background-image: conic-gradient(from 20deg, #fff, #000);
+  animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* box card style  */
+
+
+
+
+
+
+
+
 .btn {
   @apply rounded-s-full rounded-e-full text-[#FFFFFF] border py-[10px] px-[14px]
 }
+
+
+
+
+
 
 .padding {
   padding: 61px 120px 0;
@@ -54,4 +144,27 @@ svg {
   left: 120px;
   border: 1px;
   background: #0C1021;
+}
+
+/* swiper js */
+.swiper-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.swiper {
+  height: 270px !important;
+}
+
+.swiper-pagination-bullet-active {
+  width: 20px !important;
+  border-radius: 4px !important;
+  /* background: red !important; */
+}
+
+.swiper-pagination-bullet {
+  background: rgb(34, 162, 221) !important;
+  margin-top: 20px !important;
 }
