@@ -9,7 +9,7 @@ import work1 from "../../assets/work-1.png";
 import work2 from "../../assets/youthmindsTech.png";
 import work3 from "../../assets/works 3.png";
 
-const workJson = [
+export const workJson = [
   {
     image: work2,
     title: "YouthMinds Tech",
@@ -82,6 +82,9 @@ const Work: React.FC = () => {
           </SwiperSlide>
         ))}
       </Swiper>
+      <span className="hrline mt-[140px]">
+        <span className="h-[1px]"></span>
+      </span>
     </div>
   );
 };

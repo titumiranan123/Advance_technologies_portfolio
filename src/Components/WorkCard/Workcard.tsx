@@ -10,7 +10,7 @@ interface WorkcardProps {
 
 const Workcard: React.FC<WorkcardProps> = ({ pic, title, link }) => {
   return (
-    <div className="boxx md:w-[347px] lg:w-[377px] w-[338px] h-[195px] lg:[388px]">
+    <div className="boxx md:w-[347px] lg:w-[377px]  w-[338px] h-[195px] lg:[388px]">
       <div className=" flex-col boxs space-y-2   justify-center bg-black rounded-lg overflow-hidden text-[#E4E8F7] lg:w-[374px] md:w-[344px] w-[335px] h-[193px] absolute z-10">
         <div className="relative h-[200px]">
           <Image className="w-full h-full" src={pic} alt="" />
