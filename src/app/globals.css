@@ -1,12 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
-
-
 /* for font */
-
+.inter {
+  font-family: "Inter", sans-serif;
+}
 /* contact page calender style */
 
 /* contact page calender style */
@@ -14,18 +14,17 @@
   font-family: datefont;
   /* src: url(./assets/font/Satoshi-Light.otf); */
 
-
 .react-calendar {
   font-family: datefont !important;
   font-size: 24px !important;
-  background: #1D1F20 !important;
+  background: #1d1f20 !important;
   color: white;
   border: none !important;
   width: 420px !important;
 }
 
 .react-calendar__month-view__days button:hover {
-  background: #1FB5DD !important;
+  background: #1fb5dd !important;
   width: 34px;
   height: 38px;
   border-radius: 50%;
@@ -38,10 +37,7 @@ abbr {
   text-decoration: none;
 }
 
-
 /* for font */
-
-
 
 /* box card style  */
 
@@ -60,7 +56,7 @@ abbr {
 }
 
 .boxx::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 700px;
   height: 700px;
@@ -80,24 +76,8 @@ abbr {
 
 /* box card style  */
 
-
-
-
-
-
-
-
 .btn {
-  @apply rounded-s-full rounded-e-full text-[#FFFFFF] border py-[10px] px-[14px]
-}
-
-
-
-
-
-
-.padding {
-  padding: 61px 120px 0;
+  @apply rounded-s-full rounded-e-full text-[#FFFFFF] border py-[10px] px-[14px];
 }
 
 .img-fluid {
@@ -112,9 +92,12 @@ svg {
 
 .footer-line {
   border: 1px solid;
-  border-image-source: linear-gradient(90deg, rgba(202, 207, 221, 0.2) 22.4%, #CACFDD 51.01%, rgba(202, 207, 221, 0.2) 79.69%);
-
-
+  border-image-source: linear-gradient(
+    90deg,
+    rgba(202, 207, 221, 0.2) 22.4%,
+    #cacfdd 51.01%,
+    rgba(202, 207, 221, 0.2) 79.69%
+  );
 }
 
 .header-text {
@@ -124,11 +107,11 @@ svg {
   line-height: 58px;
   letter-spacing: 0em;
   text-align: left;
-  color: #F6F7FA;
+  color: #f6f7fa;
 }
 
 .title-text {
-  color: #F6F7FA;
+  color: #f6f7fa;
   font-family: Inter;
   font-size: 36px;
   font-weight: 700;
@@ -143,7 +126,7 @@ svg {
   top: 3985px;
   left: 120px;
   border: 1px;
-  background: #0C1021;
+  background: #0c1021;
 }
 
 /* swiper js */
