@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import Workcard from "../WorkCard/Workcard";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
@@ -8,6 +8,7 @@ import "swiper/css/pagination";
 import work1 from "../../assets/work-1.png";
 import work2 from "../../assets/youthmindsTech.png";
 import work3 from "../../assets/works 3.png";
+import Workcard from "@/Components/WorkCard/Workcard";
 
 const workJson = [
   {
@@ -26,25 +27,15 @@ const workJson = [
     project_link: "",
   },
   {
-    image: work2,
-    title: "YouthMinds Tech",
-    project_link: "www.youthminds-tech.vercel.app",
-  },
-  {
     image: work1,
     title: "Hotel MannageMent ",
-    project_link: "",
-  },
-  {
-    image: work3,
-    title: "Tea Store",
     project_link: "",
   },
 ];
 
 const Work: React.FC = () => {
   return (
-    <div className="w-full mt-[140px]">
+    <div className="w-full mt-[140px] mx-auto max-w-[1240px]">
       <div className="flex justify-center items-center  mb-20">
         <button className="btn">My Work</button>
       </div>

@@ -10,6 +10,7 @@ const Home = () => {
   return (
     <div className=" lg:max-w-[1200px] lg:px-0 px-10 pt-10  mx-auto padding">
       <Hero />
+      
       <About />
       <Work />
       <Exprience />
