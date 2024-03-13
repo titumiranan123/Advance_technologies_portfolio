@@ -61,10 +61,10 @@ const Hero = () => {
         </div>
       </div>
       <div className="flex justify-center md:flex-row flex-col mt-[40px] items-center gap-10  md:mt-[75px]">
-        <button className="text-white border rounded-s-full  rounded-e-full px-[39px] py-[20px] hover:bg-[#6919FF] text-[16px] font-[500]">
+        <button className="text-white border hover:border-none rounded-s-full  rounded-e-full px-[39px] py-[20px] hover:bg-[#6919FF] text-[16px] font-[500]">
           Explore My Works
         </button>
-        <button className="text-white border rounded-s-full  rounded-e-full px-[39px] py-[20px] hover:bg-[#6919FF] text-[16px] font-[500]">
+        <button className="text-white border hover:border-none  rounded-s-full  rounded-e-full px-[39px] py-[20px] hover:bg-[#6919FF] text-[16px] font-[500]">
           Download CV
         </button>
       </div>
