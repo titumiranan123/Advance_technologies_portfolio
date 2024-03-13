@@ -3,8 +3,7 @@ import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 import { AiFillTwitterCircle } from "react-icons/ai";
 const Footer = () => {
   return (
-    <div>
-      <hr className="" />
+    <div className="">
       <div className="flex justify-between items-center px-4 py-4">
         <div className="text-[#919BBA]">
           <p>&copy; 2023 Md Titumir Anan</p>

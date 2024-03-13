@@ -14,6 +14,9 @@ const Home = () => {
       <Work />
       <Exprience />
       <Workconatact />
+      <span className="hrline">
+        <span className="h-1"></span>
+      </span>
       <Footer />
     </div>
   );
